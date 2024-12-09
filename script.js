@@ -1,3 +1,3 @@
-document.getElementById("btnEntrar").addEventListener("click", function() {
-    alert("esta funcionando o click");
-})
+alert("teste")
+console.log("testando pela segunda vez")
+prompt("qual seu nome?")
