@@ -1,5 +1,5 @@
 document.getElementById("btnEntrar").addEventListener("click", function() {
-    let username = document.getElementById("usr").value
-    let password = document.getElementById("passwd").value
+    let username = document.querySelectorAll(".campoTexto")[1].value
+    let password = document.querySelectorAll(".campoTexto")[2].value
     alert(username, password)
 })
